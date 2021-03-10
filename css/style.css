@@ -110,6 +110,10 @@ li {
     list-style-type: none;
 }
 
+img {
+    height: auto;
+} 
+
 .hr {
     background: #fff;
     height: 20px;
