@@ -5472,6 +5472,19 @@ img {
         padding: 6px 35px;
         font-size: 14px;
     }
+
+    .parainsta {
+        display: none;
+    }
+
+    .ab {
+        display: none;
+    }
+
+    .paralax__right-img {
+        margin: 0 auto;
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
