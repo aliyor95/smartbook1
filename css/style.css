@@ -714,53 +714,22 @@ img {
     height: 100vh;
 }
 
-.banner-1 {
-    background: url('../img/new-bg.jpg') no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-}
-
-.banner-2 {
-    background: url('../img/new-bg.jpg') no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-}
-
-.banner-3 {
-    background: url('../img/new-bg.jpg') no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-}
-
-
-.bounce-in-left {
+.fadeinleft {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
 }
 
-.bounce-in-right {
+.fadeinright {
     -webkit-animation-name: bounceInRight;
     animation-name: bounceInRight;
 }
 
-.bounce-in-up {
+.fadeinup {
     -webkit-animation-name: Down;
     animation-name: bounceInDown;
 }
 
-.bounce-in-down {
+.fadeindown {
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
 }
@@ -1373,7 +1342,7 @@ img {
 }
 
 .paralax__background {
-    background: url('../img/paralax-background.jpg') no-repeat fixed center;
+    background: url('../img/paralax-background.webp') no-repeat fixed center;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -1575,7 +1544,7 @@ img {
 }
 
 .books__intro {
-    background: url('../img/books-info-block.png') no-repeat;
+    background: url('../img/books-info-block.webp') no-repeat;
     height: 850px;
     background-size: cover;
     display: flex;
@@ -3835,7 +3804,7 @@ img {
     }
 
     .intro {
-        margin-top: 58px;
+        margin-top: 70px;
     }
 
     .nav-toggle {
@@ -4452,56 +4421,56 @@ img {
 }
 
 .side.grey {
-    background: url('../img/insta.jpg') no-repeat;
+    background: url('../img/insta.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
 }
 
 .side.black {
-    background: url('../img/insta.jpg') no-repeat;
+    background: url('../img/insta.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
 }
 
 .side1.black1 {
-    background: url('../img/teleg.jpg') no-repeat;
+    background: url('../img/teleg.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
 }
 
 .side1.grey1 {
-    background: url('../img/teleg.jpg') no-repeat;
+    background: url('../img/teleg.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
 }
 
 .side2.black2 {
-    background: url('../img/face.jpg') no-repeat;
+    background: url('../img/face.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
 }
 
 .side2.grey2 {
-    background: url('../img/face.jpg') no-repeat;
+    background: url('../img/face.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
 }
 
 .side3.black3 {
-    background: url('../img/you.jpg') no-repeat;
+    background: url('../img/you.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
 }
 
 .side3.grey3 {
-    background: url('../img/you.jpg') no-repeat;
+    background: url('../img/you.webp') no-repeat;
     background-size: cover;
     width: 90px;
     height: 90px;
