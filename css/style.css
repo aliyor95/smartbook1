@@ -2973,6 +2973,7 @@ img {
         -o-transition: all .4s ease-out;
         transition: all .4s ease-out;
         height: 110vh;
+        display: none;
     }
 
     .header__tel,
@@ -2992,6 +2993,7 @@ img {
 
     .nav__link {
         padding-left: 0rem;
+        display: block;
     }
 
     .header__bottom-link {
