@@ -706,14 +706,6 @@ img {
     height: 100vh;
 }
 
-.banner img {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
 .fadeinleft {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
@@ -3800,7 +3792,7 @@ img {
     }
 
     .header {
-        background: #00a6ff;
+        background: #00629b;
     }
 
     .intro {
