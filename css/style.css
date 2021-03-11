@@ -112,7 +112,7 @@ li {
 
 img {
     height: auto;
-} 
+}
 
 .hr {
     background: #fff;
@@ -1224,7 +1224,7 @@ img {
     width: 100%;
     height: auto;
     position: absolute;
-    top: -1px;
+    top: 0;
     left: 0;
 }
 
@@ -1382,7 +1382,7 @@ img {
 
 .parainsta {
     position: absolute;
-    top: calc(50% - 350px);
+    top: calc(45% - 350px);
     left: calc(80% - 350px);
     animation-name: ins;
     animation-duration: 12s;
@@ -1409,7 +1409,7 @@ img {
     width: 250px;
     height: 250px;
     position: absolute;
-    top: calc(50% - 125px);
+    top: calc(45% - 125px);
     left: calc(80% - 125px);
     animation-name: ab;
     animation-duration: 12s;
@@ -2562,12 +2562,13 @@ img {
     }
 
     .nav__menu {
-        display: none;
         position: absolute;
         width: 100%;
-        top: 100%;
-        left: 0;
-        background-color: #00a6ff;
+        top: -16%;
+        background-color: rgba(0, 0, 0, 0.7);
+        left: 100%;
+        transition: all .4s ease-out;
+        height: 110vh;
     }
 
     .header__tel,
@@ -2579,7 +2580,8 @@ img {
     .nav__menu.active {
         display: block;
         margin-top: 10px;
-        background: black;
+        left: 0;
+        transition: all .4s ease-out;
     }
 
     .nav__link {
@@ -2589,8 +2591,8 @@ img {
     .header__bottom-link {
         display: block;
         margin: 0;
-        padding: 8px 20px;
-        font-size: 22px;
+        padding: 15px 20px;
+        font-size: 36px;
     }
 
     .link-top {
@@ -2852,7 +2854,7 @@ img {
         width: 100%;
     }
 
-    .paralax__right img {
+    .paralax__right-img {
         max-width: 100%;
     }
 
@@ -2865,7 +2867,7 @@ img {
     }
 
     .nav.fixed .nav-toggle {
-        top: 12px;
+        top: 5px;
     }
 
 }
@@ -2925,7 +2927,7 @@ img {
     }
 
     .nav-toggle {
-        right: 10px;
+        right: 20px;
     }
 
     .section__text-1 {
@@ -3833,11 +3835,11 @@ img {
     }
 
     .intro {
-        margin-top: 61px;
+        margin-top: 58px;
     }
 
     .nav-toggle {
-        top: 21px;
+        top: 23px;
     }
 
     .logo-video {
@@ -4515,12 +4517,12 @@ img {
     }
 
     .nav.fixed .nav-toggle__item {
-        top: 20px;
+        top: 31px;
         left: -20px;
     }
 
     .video__inner {
-        padding-top: 61px;
+        padding-top: 49px;
     }
 
     .video__content {
@@ -4539,6 +4541,7 @@ img {
 .nav__menu.active .nav__link {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 100px;
 }
 
 .audio-info {
@@ -4598,7 +4601,7 @@ img {
         height: 300px;
     }
 
-    .paralax__right img {
+    .paralax__right-img {
         max-width: 66%;
     }
 
@@ -4943,13 +4946,13 @@ img {
         margin: 0;
     }
 
-    .paralax__right img {
+    .paralax__right-img {
         max-width: 60%;
     }
 
     .parainsta {
         position: absolute;
-        top: calc(76% - 250px);
+        top: calc(74% - 250px);
         left: calc(77% - 250px);
         width: 500px;
         height: 500px;
@@ -4958,7 +4961,7 @@ img {
     .ab {
         width: 200px;
         height: 200px;
-        top: calc(76% - 100px);
+        top: calc(74% - 100px);
         left: calc(77% - 100px);
     }
 
@@ -4971,12 +4974,16 @@ img {
         padding: 15px 55px;
         font-size: 16px;
     }
+
+    .paralax__btn {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 650px) {
     .parainsta {
         position: absolute;
-        top: calc(76% - 200px);
+        top: calc(74% - 200px);
         left: calc(80% - 200px);
         width: 400px;
         height: 400px;
@@ -4985,7 +4992,7 @@ img {
     .ab {
         width: 180px;
         height: 180px;
-        top: calc(76% - 90px);
+        top: calc(74% - 90px);
         left: calc(80% - 90px);
     }
 }
@@ -4997,7 +5004,7 @@ img {
 
     .parainsta {
         position: absolute;
-        top: calc(76% - 200px);
+        top: calc(75% - 200px);
         left: calc(80% - 200px);
         width: 400px;
         height: 400px;
@@ -5006,7 +5013,7 @@ img {
     .ab {
         width: 180px;
         height: 180px;
-        top: calc(76% - 90px);
+        top: calc(75% - 90px);
         left: calc(80% - 90px);
     }
 }
@@ -5063,12 +5070,12 @@ img {
         left: calc(50% - 150px);
     }
 
-    .paralax__right img {
+    .paralax__right-img {
         max-width: 60%;
     }
 
     .parainsta {
-        top: calc(79% - 190px);
+        top: calc(77% - 190px);
         left: calc(80% - 190px);
         width: 380px;
         height: 380px;
@@ -5077,7 +5084,7 @@ img {
     .ab {
         width: 150px;
         height: 150px;
-        top: calc(79% - 75px);
+        top: calc(77% - 75px);
         left: calc(80% - 75px);
     }
 
@@ -5100,6 +5107,10 @@ img {
         padding: 15px 80px;
         font-size: 16px;
     }
+
+    .nav {
+        padding-bottom: 10px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -5111,7 +5122,7 @@ img {
 
 @media (max-width: 510px) {
     .parainsta {
-        top: calc(80% - 180px);
+        top: calc(78% - 180px);
         left: calc(80% - 180px);
         width: 360px;
         height: 360px;
@@ -5120,14 +5131,14 @@ img {
     .ab {
         width: 140px;
         height: 140px;
-        top: calc(80% - 70px);
+        top: calc(78% - 70px);
         left: calc(80% - 70px);
     }
 }
 
 @media (max-width: 450px) {
     .parainsta {
-        top: calc(82% - 160px);
+        top: calc(80% - 160px);
         left: calc(80% - 160px);
         width: 320px;
         height: 320px;
@@ -5136,18 +5147,18 @@ img {
     .ab {
         width: 130px;
         height: 130px;
-        top: calc(82% - 65px);
+        top: calc(80% - 65px);
         left: calc(80% - 65px);
     }
 
-    .paralax__right img {
+    .paralax__right-img {
         max-width: 55%;
     }
 }
 
 @media (max-width: 415px) {
     .parainsta {
-        top: calc(84% - 150px);
+        top: calc(82% - 150px);
         left: calc(74% - 150px);
         width: 300px;
         height: 300px;
@@ -5156,18 +5167,18 @@ img {
     .ab {
         width: 110px;
         height: 110px;
-        top: calc(84% - 55px);
+        top: calc(82% - 55px);
         left: calc(74% - 55px);
     }
 
-    .paralax__right img {
+    .paralax__right-img {
         max-width: 55%;
     }
 }
 
 @media (max-width: 411px) {
     .parainsta {
-        top: calc(84% - 150px);
+        top: calc(82% - 150px);
         left: calc(74% - 150px);
         width: 300px;
         height: 300px;
@@ -5176,11 +5187,11 @@ img {
     .ab {
         width: 110px;
         height: 110px;
-        top: calc(84% - 55px);
+        top: calc(82% - 55px);
         left: calc(74% - 55px);
     }
 
-    .paralax__right img {
+    .paralax__right-img {
         max-width: 55%;
     }
 }
@@ -5235,6 +5246,20 @@ img {
         font-size: 16px;
         left: 6%;
     }
+
+    .parainsta {
+        top: calc(82% - 120px);
+        left: calc(74% - 120px);
+        width: 240px;
+        height: 240px;
+    }
+
+    .ab {
+        width: 100px;
+        height: 100px;
+        top: calc(82% - 50px);
+        left: calc(74% - 50px);
+    }
 }
 
 
@@ -5267,7 +5292,7 @@ img {
     }
 
     .parainsta {
-        top: calc(85% - 120px);
+        top: calc(83% - 120px);
         left: calc(74% - 120px);
         width: 240px;
         height: 240px;
@@ -5276,7 +5301,7 @@ img {
     .ab {
         width: 100px;
         height: 100px;
-        top: calc(85% - 50px);
+        top: calc(83% - 50px);
         left: calc(74% - 50px);
     }
 
@@ -5293,6 +5318,10 @@ img {
         padding: 15px 72px;
         font-size: 16px;
         left: 6%;
+    }
+
+    .paralax__btn {
+        margin-top: 30px;
     }
 }
 
@@ -5358,7 +5387,7 @@ img {
     }
 
     .parainsta {
-        top: calc(86% - 100px);
+        top: calc(84% - 100px);
         left: calc(74% - 100px);
         width: 200px;
         height: 200px;
@@ -5367,7 +5396,7 @@ img {
     .ab {
         width: 90px;
         height: 90px;
-        top: calc(86% - 45px);
+        top: calc(84% - 45px);
         left: calc(74% - 45px);
     }
 
@@ -5631,5 +5660,9 @@ img {
     .books__body .pulsing1 {
         top: 148%;
         left: 25%;
+    }
+
+    .paralax__btn {
+        margin-top: 34px;
     }
 }
