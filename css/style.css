@@ -2966,7 +2966,7 @@ img {
     .nav__menu {
         position: absolute;
         width: 100%;
-        top: -16%;
+        top: -22%;
         background-color: rgba(0, 0, 0, 0.7);
         left: 100%;
         -webkit-transition: all .4s ease-out;
@@ -2984,7 +2984,6 @@ img {
 
     .nav__menu.active {
         display: block;
-        margin-top: 10px;
         left: 0;
         -webkit-transition: all .4s ease-out;
         -o-transition: all .4s ease-out;
